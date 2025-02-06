@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 20;
+  padding: 20;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  display: flex;
+  background-color: hsl(244, 38%, 16%);
+  margin: 60px;
+  color: white;
+  overflow: hidden;
+  width: 1000px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+}
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+h2 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+.section-image img {
+  width: 100%;
+  height: 100%;
+}
+.section-image {
+  width: 50%;
+}
+.section-text {
+  width: 50%;
+  padding: 20px;
+}
+h2 {
+}

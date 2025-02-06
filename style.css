@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  text-align: center;
+}
+main {
+  background-color: hsl(244, 38%, 16%);
+  margin: 50px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+ul span:first-child {
+  color: hsla(0, 0%, 100%);
+  font-weight: bold;
+  font-size: 32px;
+}
+ul span:not(:first-child) {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+span {
+  display: block;
+}
+li {
+  margin: 10px;
+}
+.text-container {
+  padding: 30px;
+}
+h1 strong {
+  color: hsl(277, 64%, 61%);
+}
+
+/* Position property */
+/* values: fixed, relative, absolute, sticky, static (default value for all elements)*/
+
+/* Postiton fixed; -- allows positioning an element in relation to the viewport/
+available screen using top, bottom, left, right, inset properties.
+Position fixed removesan element from the static/natural/original flow of the document. */
+
+/* Position relative; -- allows positioning an element in relation to its original/static postion.
+The element is not detached/removed from its static flow/position */
+
+/* Postion absolute; -- allows positioning of an element in relation to a parent or
+ancestor element. The parent/ancestor element should have it's position as anything other than static.
+If no parent/ancestor element has it's postion changed, position absolute will behave like position fixed
+(relative to viewport). The elemnt is always removed from the original flow/static position.
+*/
+parent {
+  width: 500px;
+  height: 350px;
+  border: 3px solid green;
+  position: relative;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 8px 14px;
+  font-size: 18px;
+  position: sticky;
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}
+.image-container {
+  position: relative;
+}
+#blanket {
+  background-color: hsl(277, 64%, 61%, 0.3);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+}
